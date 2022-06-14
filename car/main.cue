@@ -11,7 +11,7 @@ import(
     }
 
     bash.#Run & {
-        always: true
+        always: false
         input:  _img.output
     }
 }
